@@ -1,0 +1,15 @@
+directories:
+  output: dist
+  buildResources: build
+appId: yawk.rainbowmodloader
+productName: Rainbow Modloader
+asar: true
+win:
+  target: portable
+  icon: assets/rainbow_icon.ico
+mac:
+  target: dmg
+linux:
+  target: AppImage
+files: []
+electronVersion: 34.1.1

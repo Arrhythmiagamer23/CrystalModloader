@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#progressBarContainer {
+    width: 100%;
+    background-color: rgb(80, 80, 80);
+    margin: 20px 0;
+}
+
+#progressBar {
+    width: 0%;
+    height: 30px;
+    background-color: #4caf50;
+}
+
+#bannerContainer {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  #banner {
+    width: 100%;
+    height: auto;
+  }
+  
+  #modListContainer {
+    width: 800px;
+    height: 300px;
+    margin: 10px auto;
+    overflow-y: auto;
+    background-color: #202020;
+    border: 1px solid #000000;
+    padding: 5px;
+  }
+  
+  .modItem {
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #2c2c2c;
+  }
+  
+  .modIcon {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+  }
+  
+  .modDetails {
+    text-align: left;
+    margin-left: 15px;
+    flex: 1;
+  }
+  
+  .modDetails h3 {
+    margin: 0;
+    font-size: 1em;
+    color: #ffffff;
+  }
+  
+  .modDetails p {
+    margin: 5px 0;
+    color: #dadada;
+    font-size: 0.9em;
+  }
+  
+  .modCompatible {
+    font-style: italic;
+    color: #bebebe;
+  }
+  
+  .deleteButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c0392b;
+  }

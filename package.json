@@ -1,0 +1,34 @@
+{
+  "name": "rainbow-modloader",
+  "version": "1.2.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "build": {
+    "appId": "yawk.rainbowmodloader",
+    "productName": "Rainbow Modloader",
+    "directories": {
+      "output": "dist"
+    },
+    "asar": true,
+    "win": {
+      "target": "portable",
+      "icon": "assets/rainbow_icon.ico"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "devDependencies": {
+    "electron": "^34.1.1"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "fs-extra": "^11.3.0"
+  }
+}

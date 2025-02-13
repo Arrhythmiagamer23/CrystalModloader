@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Mod</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <style>
+    /* Puedes ajustar estilos específicos para la página de creación */
+    #createModContainer {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+    }
+    #iconSection, #modInfoSection {
+      flex: 1;
+      margin: 10px;
+    }
+    #iconSection button {
+      display: block;
+      margin-bottom: 10px;
+    }
+    #iconPreview {
+      width: 170px;
+      height: 170px;
+      object-fit: cover;
+      border: 1px solid #000000;
+      display: none;
+    }
+    #dataFolderSection, #createModAction {
+      text-align: center;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Create Mod</h1>
+  <div id="createModContainer">
+    <div id="iconSection">
+      <button id="selectIconButton">Select Icon (PNG)</button>
+      <img id="iconPreview" src="" alt="Icon Preview">
+    </div>
+    <div id="modInfoSection">
+      <label for="modName">Mod Name:</label><br>
+      <input type="text" id="modName"><br><br>
+      <label for="modAuthor">Author:</label><br>
+      <input type="text" id="modAuthor"><br><br>
+      <label for="modVersion">Version:</label><br>
+      <input type="text" id="modVersion"><br><br>
+      <label for="modGame">Compatible Game:</label><br>
+      <input type="text" id="modGame"><br>
+    </div>
+  </div>
+  <div id="dataFolderSection">
+    <button id="selectDataFolderButton">Select Data Folder</button>
+    <span id="dataFolderPath"></span>
+  </div>
+  <div id="createModAction">
+    <button id="createModButton">Create Mod File (.rsm)</button>
+  </div>
+  <script src="assets/create.js"></script>
+</body>
+</html>
