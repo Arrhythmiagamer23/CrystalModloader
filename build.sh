@@ -1,1 +1,0 @@
-pyinstaller --onefile --windowed --icon=rainbow_icon.ico --add-data "background.png;." --name "Rainbow Modloader" rainbow_modloader.py
