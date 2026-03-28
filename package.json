@@ -1,14 +1,14 @@
 {
-  "name": "rainbow-modloader",
-  "version": "1.2.0",
+  "name": "crystal-modloader",
+  "version": "1.0.0",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "build": "electron-builder"
   },
   "build": {
-    "appId": "yawk.rainbowmodloader",
-    "productName": "Rainbow Modloader",
+    "appId": "roadhogstudios.crystalmodloader",
+    "productName": "Crystal Modloader",
     "directories": {
       "output": "dist"
     },
